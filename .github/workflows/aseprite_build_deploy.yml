@@ -9,6 +9,7 @@ on:
 
 env:
   BUILD_TYPE: Release
+  ACTIONS_ALLOW_UNSECURE_COMMAND: true
   
 jobs:
   check-version:
